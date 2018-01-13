@@ -23,14 +23,13 @@ endpoints:
   
 functions:
   arn:aws:lambda:us-west-2:577088235930:function:jiraTickets
-```
 
 ## Usage
 
 You can create, retrieve, jiraTickets with the following commands:
 
 ### Create a Jira Ticket Summary
-
+```bash
 curl -X POST  https://4cmev3vrsi.execute-api.us-west-2.amazonaws.com/dev/jiraTickets  --data{"description": "Admin Screen","summary": "Create Admin Screen with user roles","priority": "High","completed_dttm": "2018-01-06T15:20:07.958Z", "ticket_id": "TS-6","created_dttm": "2018-01-05T20:15:07.958Z"}
 ```
 
