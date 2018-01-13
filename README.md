@@ -36,7 +36,7 @@ curl -X POST  https://4cmev3vrsi.execute-api.us-west-2.amazonaws.com/dev/jiraTic
 No output
 
 
-### Get one Todo
+### Get one Jira Ticket Summary
 
 ```bash
 # Replace the <id>part with a real id from your todos table  (e.g. TS-1)
