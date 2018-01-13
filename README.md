@@ -9,7 +9,11 @@ layout: Doc
 - API for a Web Application
 - API for a Mobile Application
 
-
+## AWS Services used
+- API Gateway
+- Amazon DynamoDB
+- AWS Lambda
+- AWS IAM
 
 Service Information
 service: rest-api-with-dynamodb
