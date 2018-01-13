@@ -16,7 +16,7 @@ service: rest-api-with-dynamodb
 stage: dev
 region: us-west-2
 api keys:
-  None
+  None    
 endpoints:  
   POST - https://4cmev3vrsi.execute-api.us-west-2.amazonaws.com/dev/jiraTickets  
   GET - https://4cmev3vrsi.execute-api.us-west-2.amazonaws.com/dev/jiraTickets?ticket_id={id}  
