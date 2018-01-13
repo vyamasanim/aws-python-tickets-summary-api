@@ -17,7 +17,7 @@ stage: dev
 region: us-west-2
 api keys:
   None    
-endpoints:  
+## Endpoints:  
   POST - https://4cmev3vrsi.execute-api.us-west-2.amazonaws.com/dev/jiraTickets  
   GET - https://4cmev3vrsi.execute-api.us-west-2.amazonaws.com/dev/jiraTickets?ticket_id={id}  
   
